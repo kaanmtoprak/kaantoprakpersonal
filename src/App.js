@@ -1,26 +1,23 @@
-import { AboutMe, Contact, Educations, Experiences, Knowledges, Section, Skills } from "./components";
+import { AboutMe, Educations, Experiences, Section, Skills } from "./components";
 import './components/Home/home.scss';
+import { useTranslation } from 'react-i18next';
 
 function App() {
+  const { t } = useTranslation();
+
   return (
     <div className='home'>
-        <Section title="About Me">
+        <Section title={t('sections.aboutMe')}>
             <AboutMe/>
         </Section>
-        <Section title="Experiences">
+        <Section title={t('sections.experiences')}>
             <Experiences/>
         </Section>
-        <Section title="Educations">
+        <Section title={t('sections.educations')}>
             <Educations/>
         </Section>
-        <Section title="Skills">
+        <Section title={t('sections.skills')}>
             <Skills/>
-        </Section>
-        <Section title="Knowledges">
-            <Knowledges/>
-        </Section>
-        <Section title="Contact">
-            <Contact/>
         </Section>
     </div>
   );

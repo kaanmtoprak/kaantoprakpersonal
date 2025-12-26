@@ -1,8 +1,11 @@
 import React from 'react'
 import './educations.scss';
-import { education } from '../../utilities/contents';
+import { useTranslation } from 'react-i18next';
 
 const Educations = () => {
+  const { t } = useTranslation();
+  const education = t('education', { returnObjects: true });
+
   return (
     <div className='educations'>
         {education.map((index,key)=>(

@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+# 🚀 Kişisel Portföy Web Sitesi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## 📋 Hakkında
 
-In the project directory, you can run:
+Bu proje, React ve modern web teknolojileri kullanılarak geliştirilmiş kişisel bir web sitesidir. Site, deneyimlerimi, eğitim geçmişimi ve teknik yeteneklerimi içermektedir.
 
-### `npm start`
+## ✨ Özellikler
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🌍 **Çoklu Dil Desteği**: Türkçe ve İngilizce dil desteği (i18n)
+- 📱 **Responsive Tasarım**: Tüm cihazlarda mükemmel görünüm
+- 🎨 **Modern UI/UX**: Kullanıcı dostu ve estetik arayüz
+- ⚡ **Performans**: Optimize edilmiş ve hızlı yükleme süreleri
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Kullanılan Teknolojiler
 
-### `npm test`
+- **React 18.2** - UI kütüphanesi
+- **SASS/SCSS** - Stil yönetimi
+- **i18next & react-i18next** - Çoklu dil desteği
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📦 Kurulum
 
-### `npm run build`
+Projeyi klonlayın:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/kaanmtoprak/kaantopraknet.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Proje dizinine gidin:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+cd kaantopraknet
+```
 
-### `npm run eject`
+Bağımlılıkları yükleyin:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Çalıştırma
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Geliştirme modunda çalıştırmak için:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm start
+```
 
-## Learn More
+Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresini açın.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📦 Production Build
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Production build oluşturmak için:
 
-### Code Splitting
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Build dosyaları `build` klasörüne oluşturulacaktır.
 
-### Analyzing the Bundle Size
+## 🌐 Canlı Demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Site canlı olarak şu adreste yayınlanmaktadır: [kaantoprak.net](https://kaantoprak.net)
 
-### Making a Progressive Web App
+## 📝 Proje Yapısı
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+src/
+├── components/          # React bileşenleri
+│   ├── AboutMe/        # Hakkımda bölümü
+│   ├── Educations/     # Eğitim bilgileri
+│   ├── Experiences/    # İş deneyimleri
+│   ├── Skills/         # Teknik yetenekler
+│   └── LanguageSwitcher/ # Dil değiştirici
+├── locales/            # Dil dosyaları (tr/en)
+├── styles/             # Global stiller
+└── utilities/          # Yardımcı fonksiyonlar
+```
 
-### Advanced Configuration
+## 🎨 Özelleştirme
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Dil Dosyalarını Düzenleme
 
-### Deployment
+Dil dosyaları `src/locales/` klasöründe bulunmaktadır:
+- `tr/translation.json` - Türkçe çeviriler
+- `en/translation.json` - İngilizce çeviriler
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Stil Değişkenleri
 
-### `npm run build` fails to minify
+Renk ve stil değişkenleri `src/styles/Settings/colors.scss` dosyasında tanımlanmıştır.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📧 İletişim
+
+- **GitHub**: [@kaanmtoprak](https://github.com/kaanmtoprak)
+- **LinkedIn**: [Mehmet Kaan Toprak](https://www.linkedin.com/in/kaanmtprk/)
+- **Twitter**: [@kaanmehtprk](https://twitter.com/kaanmehtprk)
+
+## 📄 Lisans
+
+Bu proje kişisel bir projedir ve özel kullanım içindir.
+
+---
+
+⭐ Bu projeyi beğendiyseniz yıldız vermeyi unutmayın!
+
+**Not**: Bu kişisel bir projedir. Herhangi bir ticari amaçla kullanılmamaktadır.

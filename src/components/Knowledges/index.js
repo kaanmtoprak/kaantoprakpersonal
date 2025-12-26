@@ -1,9 +1,11 @@
 import React from 'react'
 import './knowledges.scss';
-import { knowledges } from '../../utilities/contents'
-
+import { useTranslation } from 'react-i18next';
 
 const Knowledges = () => {
+  const { t } = useTranslation();
+  const knowledges = t('knowledges', { returnObjects: true });
+
   return (
     <div className='knowledges'>
         {
