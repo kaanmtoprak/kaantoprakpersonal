@@ -1,0 +1,225 @@
+{
+  "sections": {
+    "aboutMe": "About Me",
+    "experiences": "Experiences",
+    "educations": "Educations",
+    "skills": "Skills"
+  },
+  "aboutMe": {
+    "bio": "I am a Senior Frontend Developer who has been primarily working with React and Next.js in recent years, building internal dashboards, e-commerce platforms and admin applications. I focus on micro-frontend architectures (Webpack Module Federation), reusable component-based structures and performance-oriented user interfaces. I work closely with product, design and backend teams to translate business needs into technical solutions, and I take responsibility both in project setup and in production deployment processes (Microsoft Azure). I care about code quality, readability and sustainable architecture, and I aim to create long-term value in every project I contribute to.",
+    "info": {
+      "age": "Age",
+      "residence": "Residence",
+      "address": "Address",
+      "turkey": "Turkey",
+      "istanbul": "Istanbul/Sisli",
+      "phone": "Phone"
+    }
+  },
+  "experiences": [
+    {
+      "id": 1,
+      "years": "Mar 2023 - Present",
+      "title": "Frontend Developer (Senior After Jan 2025)",
+      "company": "P-Tech Solutions",
+      "description": "Developed an interactive marketing website with the frontend team using Framer Motion and Scroll Magic. Played an active role in the setup and development of a large-scale merchant admin panel. Contributed to frontend development of wallet, campaign and card management modules. Worked in a micro-frontend architecture with Webpack Module Federation, building shared npm packages and reusable components. Took part in Azure deployment processes and Agile workflows managed via Jira, implementing UIs based on Figma designs"
+    },
+    {
+      "id": 2,
+      "years": "Nov 2022 - Mar 2023",
+      "title": "Frontend Developer",
+      "company": "Marti Technology",
+      "description": "Worked on an internal admin panel project and actively contributed from the initial setup phase. Built a scalable, component-based frontend architecture using Next.js, TypeScript, Sass and the BEM methodology. Implemented global state management with Redux / Redux Toolkit to ensure consistent data flow across complex screens. Collaborated in an Agile environment, participating in sprint planning, daily and review meetings. Integrated RESTful APIs in close cooperation with backend developers and handled error/loading states in a user-friendly way."
+    },
+    {
+      "id": 3,
+      "years": "Jan 2020 - Nov 2022",
+      "title": "Frontend Developer",
+      "company": "Maykim Group",
+      "description": "Contributed to the development of internal company panels and an e-commerce website. Used HTML, CSS, JavaScript, jQuery and React to implement new features and improve existing modules. Built responsive, cross-browser compatible user interfaces aligned with design requirements. Worked on forms, page layouts and UI interactions to enhance the overall user experience."
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "years": "2014 - 2019",
+      "name": "Atılım University",
+      "institution": "Ankara"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "title": "Frontend",
+      "skills": [
+        {
+          "id": 1,
+          "skill": "HTML5"
+        },
+        {
+          "id": 2,
+          "skill": "CSS3 (SASS/SCSS, BEM)"
+        },
+        {
+          "id": 3,
+          "skill": "Javascript (ES6+, jQuery)"
+        },
+        {
+          "id": 3,
+          "skill": "Typescript"
+        },
+        {
+          "id": 4,
+          "skill": "Responsive Design"
+        },
+        {
+          "id": 5,
+          "skill": "Cross-Browser Compatibility"
+        },
+        {
+          "id": 6,
+          "skill": "Performance Optimization"
+        },
+        {
+          "id": 7,
+          "skill": "Pixel-Perfect Design"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Frameworks & Libraries",
+      "skills": [
+        {
+          "id": 1,
+          "skill": "ReactJs"
+        },
+        {
+          "id": 2,
+          "skill": "NextJs"
+        },
+        {
+          "id": 3,
+          "skill": "Redux, Redux Toolkit"
+        },
+        {
+          "id": 4,
+          "skill": "Tanstack Query"
+        },
+        {
+          "id": 5,
+          "skill": "Tailwind CSS"
+        },
+        {
+          "id": 6,
+          "skill": "Ant Design"
+        },
+        {
+          "id": 7,
+          "skill": "Bootstrap"
+        },
+        {
+          "id": 8,
+          "skill": "Chakra UI"
+        },
+        {
+          "id": 9,
+          "skill": "Shadcn UI"
+        },
+        {
+          "id": 10,
+          "skill": "Framer Motion"
+        },
+        {
+          "id": 11,
+          "skill": "Scroll Magic"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Architecture & Tooling",
+      "skills": [
+        {
+          "id": 1,
+          "skill": "Webpack"
+        },
+        {
+          "id": 2,
+          "skill": "Module Federation"
+        },
+        {
+          "id": 3,
+          "skill": "Micro Frontends"
+        },
+        {
+          "id": 4,
+          "skill": "RESTful APIs Integration"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Testing & Monitoring",
+      "skills": [
+        {
+          "id": 1,
+          "skill": "Jest"
+        },
+        {
+          "id": 2,
+          "skill": "Performance Monitoring"
+        },
+        {
+          "id": 3,
+          "skill": "Error Tracking"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Backend & Databases",
+      "skills": [
+        {
+          "id": 1,
+          "skill": "NodeJs"
+        },
+        {
+          "id": 2,
+          "skill": "ExpressJs"
+        },
+        {
+          "id": 3,
+          "skill": "MongoDB"
+        },
+        {
+          "id": 4,
+          "skill": "PostgreSQL"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "DevOps, Cloud & Collaboration",
+      "skills": [
+        {
+          "id": 1,
+          "skill": "Docker"
+        },
+        {
+          "id": 2,
+          "skill": "Git / GitHub"
+        },
+        {
+          "id": 3,
+          "skill": "Deployment processes on Microsoft Azure"
+        },
+        {
+          "id": 4,
+          "skill": "Jira, Agile/Scrum"
+        }
+      ]
+    }
+  ]
+}
+

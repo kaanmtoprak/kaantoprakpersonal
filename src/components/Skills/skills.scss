@@ -5,22 +5,51 @@
 
 .skills {
     $skills : &;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    @include under-desktop {
-        @include flex-center;
-        flex-direction: column;
-        width: 100%
-    }
-    >div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    @mixin underline-before {
+        background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 80%);
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -5px;
         width: 100%;
-        @include flex-start-center;
-        flex-direction: column;
-        padding: 20px;
-        #{$skills}__name {
-            font-size: 20px;
+        height: 1px
+    };
+
+    &__title {
+        position: relative;
+        font-size: 20px;
+        color: $orange;
+        margin-bottom: 20px;
+        display: block;
+        &::before {
+            @include underline-before;
+        }
+    }
+    &__content {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        flex-wrap: wrap;
+        &__skill {
+            position: relative;
+            width: calc(50% - 10px);
+            @include phone {
+                width: 100%;
+            }
+            font-size: 16px;
             color: $grey-06;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
+            &::before {
+                @include underline-before;
+            }
+        }
+        @include phone {
+            flex-direction: column;
         }
     }
 }

@@ -1,0 +1,225 @@
+{
+  "sections": {
+    "aboutMe": "Hakkımda",
+    "experiences": "Deneyimler",
+    "educations": "Eğitimler",
+    "skills": "Yetenekler"
+  },
+  "aboutMe": {
+    "bio": "Son yıllarda ağırlıklı olarak React ve Next.js ile şirket içi paneller, e-ticaret ve admin projeleri geliştiren bir Senior Frontend Developer’ım. Micro-frontend yapılar (Webpack Module Federation), yeniden kullanılabilir component mimarileri ve performans odaklı arayüzler üzerinde çalışıyorum. Ürün, tasarım ve backend ekipleriyle yakın çalışarak iş ihtiyaçlarını teknik çözümlere dönüştürüyor; projelerin hem kurulumunda hem de canlıya alım (Microsoft Azure deployment) süreçlerinde sorumluluk alıyorum. Kod kalitesine, okunabilirliğe ve sürdürülebilir mimariye önem veriyor, yer aldığım projelere uzun vadeli değer katmayı hedefliyorum.",
+    "info": {
+      "age": "Yaş",
+      "residence": "İkamet",
+      "address": "Adres",
+      "turkey": "Türkiye",
+      "istanbul": "İstanbul/Şişli",
+      "phone": "Telefon"
+    }
+  },
+  "experiences": [
+    {
+      "id": 1,
+      "years": "Mart 2023 - Günümüz",
+      "title": "Frontend Developer (Ocak 2025'ten itibaren Senior)",
+      "company": "P-Tech Solutions",
+      "description": "Frontend ekibiyle birlikte, Framer Motion ve Scroll Magic kullanarak etkileşimli bir web sitesi geliştirdik. Büyük ölçekli bir merchant admin paneli projesinin kurulumundan itibaren geliştirilmesinde aktif rol aldım. Wallet, kampanya, kart yönetimi gibi modüllerin arayüz geliştirmelerine katkı sağladım. Webpack Module Federation tabanlı micro-frontend yapısında ortak npm paketleri ve yeniden kullanılabilir component’ler geliştirdim. Azure deployment, Jira ile Agile süreçler ve Figma tasarımlarının uygulanmasında düzenli sorumluluk aldım."
+    },
+    {
+      "id": 2,
+      "years": "Kas 2022 - Mart 2023",
+      "title": "Frontend Developer",
+      "company": "Marti Technology",
+      "description": "Şirket içi bir admin panel projesinde çalıştım ve projenin ilk kurulumu aşamasına aktif olarak katkı sağladım. Next.js, TypeScript, Sass ve BEM metodolojisini kullanarak ölçeklenebilir, component tabanlı bir frontend mimarisi kurdum. Karmaşık ekranlarda tutarlı veri akışı sağlamak için Redux / Redux Toolkit ile global state yönetimi implemente ettim. Agile bir ortamda, sprint planlama, günlük toplantılar (daily) ve gözden geçirme (review) oturumlarına düzenli olarak katıldım. Backend geliştiricileriyle yakın çalışarak RESTful API entegrasyonlarını gerçekleştirdim ve hata/yüklenme durumlarını kullanıcı dostu şekilde yönettim."
+    },
+    {
+      "id": 3,
+      "years": "Ocak 2020 - Kas 2022",
+      "title": "Frontend Developer",
+      "company": "Maykim Group",
+      "description": "Şirket içi panellerin ve bir e-ticaret sitesinin geliştirilmesine katkı sağladım. Yeni özellikler geliştirmek ve mevcut modülleri iyileştirmek için HTML, CSS, JavaScript, jQuery ve React kullandım. Tasarım gereksinimlerine uygun, responsive ve tarayıcılar arası uyumlu kullanıcı arayüzleri oluşturdum. Formlar, sayfa yerleşimleri ve arayüz etkileşimleri üzerinde çalışarak genel kullanıcı deneyimini iyileştirdim."
+    }
+  ],
+  "education": [
+    {
+      "id": 1,
+      "years": "2014 - 2019",
+      "name": "Atılım Üniversitesi",
+      "institution": "Ankara"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "title": "Frontend",
+      "skills": [
+        {
+          "id": 1,
+          "skill": "HTML5"
+        },
+        {
+          "id": 2,
+          "skill": "CSS3 (SASS/SCSS, BEM Metodolojisi)"
+        },
+        {
+          "id": 3,
+          "skill": "Javascript (ES6+, jQuery)"
+        },
+        {
+          "id": 3,
+          "skill": "Typescript"
+        },  
+        {
+          "id": 4,
+          "skill": "Responsive Tasarım"
+        },
+        {
+          "id": 5,
+          "skill": "Cross-Browser Uyumluluğu"
+        },
+        {
+          "id": 6,
+          "skill": "Performans Optimizasyonu"
+        },
+        {
+          "id": 7,
+          "skill": "Pixel-Perfect Tasarım"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Framework & Kütüphaneler",
+      "skills": [
+        {
+          "id": 1,
+          "skill": "ReactJs"
+        },
+        {
+          "id": 2,
+          "skill": "NextJs"
+        },
+        {
+          "id": 3,
+          "skill": "Redux, Redux Toolkit"
+        },
+        {
+          "id": 4,
+          "skill": "Tanstack Query"
+        },
+        {
+          "id": 5,
+          "skill": "Tailwind CSS"
+        },
+        {
+          "id": 6,
+          "skill": "Ant Design"
+        },
+        {
+          "id": 7,
+          "skill": "Bootstrap"
+        },
+        {
+          "id": 8,
+          "skill": "Chakra UI"
+        },
+        {
+          "id": 9,
+          "skill": "Shadcn UI"
+        },
+        {
+          "id": 10,
+          "skill": "Framer Motion"
+        },
+        {
+          "id": 11,
+          "skill": "Scroll Magic"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Mimari & Araçlar",
+      "skills": [
+        {
+          "id": 1,
+          "skill": "Webpack"
+        },
+        {
+          "id": 2,
+          "skill": "Module Federation"
+        },
+        {
+          "id": 3,
+          "skill": "Micro Frontends"
+        },
+        {
+          "id": 4,
+          "skill": "RESTful APIs Entegrasyonları"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Test & İzleme",
+      "skills": [
+        {
+          "id": 1,
+          "skill": "Jest"
+        },
+        {
+          "id": 2,
+          "skill": "Performans İzleme"
+        },
+        {
+          "id": 3,
+          "skill": "Hata Takibi"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Backend & Veritabanları",
+      "skills": [
+        {
+          "id": 1,
+          "skill": "NodeJs"
+        },
+        {
+          "id": 2,
+          "skill": "ExpressJs"
+        },
+        {
+          "id": 3,
+          "skill": "MongoDB"
+        },
+        {
+          "id": 4,
+          "skill": "PostgreSQL"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "DevOps, Cloud & Collaboration",
+      "skills": [
+        {
+          "id": 1,
+          "skill": "Docker"
+        },
+        {
+          "id": 2,
+          "skill": "Git / GitHub"
+        },
+        {
+          "id": 3,
+          "skill": "Deployment Süreçleri Microsoft Azure"
+        },
+        {
+          "id": 4,
+          "skill": "Jira, Agile/Scrum"
+        }
+      ]
+    }
+  ]
+}
+
