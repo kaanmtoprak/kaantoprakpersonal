@@ -1,16 +1,17 @@
-@import '../../styles/Settings/colors.scss';
-@import '../../styles/Settings/mixins.scss';
+@use '../../styles/Settings/colors';
+@use '../../styles/Settings/mixins';
+@use '../../styles/Settings/screens';
 
 .about-me {
     position: relative;
     &__bio {
-        color: $grey-06;
+        color: colors.$grey-06;
         font-size: 15px;
         text-indent: 20px;
         line-height: 25px;
     }
     &__info {
-        @include flex-center-start;
+        @include mixins.flex-center-start;
         flex-wrap: wrap;
         width: 100%;
         height: 100%;
@@ -20,10 +21,14 @@
         &__element {
             position: relative;
             width: 100%;
-            @include flex-center-start;
+            @include mixins.flex-center-start;
             flex-direction: row;
             max-width: calc(50% - 10px);
-            color: $grey-06;
+            color: colors.$grey-06;
+            @include screens.phone {
+                max-width: 100%;
+            }
+
 
             .name {
                 position: relative;
@@ -37,7 +42,7 @@
                     width: 20px;
                     height: 20px;
                     border-radius: 100px;
-                    background-color: $orange;
+                    background-color: colors.$orange;
                     opacity: .2;
                 }
             }

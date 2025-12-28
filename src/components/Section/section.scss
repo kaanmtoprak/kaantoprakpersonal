@@ -1,5 +1,5 @@
-@import '../../styles/Settings/colors.scss';
-@import '../../styles/Settings/mixins.scss';
+@use '../../styles/Settings/colors';
+@use '../../styles/Settings/mixins';
 
 .section {
     + .section {
@@ -9,9 +9,9 @@
         position: relative;
         padding: 20px;
         font-size: 20px;
-        color: $grey-06;
+        color: colors.$grey-06;
         &::before {
-            background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 80%);
+            background: radial-gradient(ellipse at left, #c5cad526 0%, #ffffff00 80%);
             content: '';
             position: absolute;
             left: 0;
@@ -29,7 +29,7 @@
                 width: 25px;
                 height: 25px;
                 border-radius: 100px;
-                background-color: $orange;
+                background-color: colors.$orange;
                 opacity: .2;
             }
         }

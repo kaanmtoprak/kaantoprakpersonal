@@ -1,8 +1,8 @@
-@import '../../styles/Settings/colors.scss';
+@use '../../styles/Settings/colors';
 
 .area{
-    background: $grey-01;  
-    background: -webkit-linear-gradient(to left, $grey-05, $grey-01); 
+    background: colors.$grey-01;  
+    background: -webkit-linear-gradient(to left, colors.$grey-05, colors.$grey-01); 
     height:100vh;
     width: 100%;
     min-width: 1920px;

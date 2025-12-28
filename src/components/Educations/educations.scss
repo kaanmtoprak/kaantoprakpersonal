@@ -1,10 +1,10 @@
-@import '../../styles/Settings/colors.scss';
-@import '../../styles/Settings/mixins.scss';
+@use '../../styles/Settings/colors';
+@use '../../styles/Settings/mixins';
 
 .educations {
     $educations:&;
     > div {
-        @include flex-center;
+        @include mixins.flex-center;
         flex-direction: column;
         margin-top: 20px;
         + div {
@@ -18,23 +18,23 @@
                 top: 0;
                 width: 100%;
                 height: 1px;
-                background: radial-gradient(ellipse at center, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+                background: radial-gradient(ellipse at center, #c5cad526 0%, #ffffff00 70%);
             }
         }
         #{$educations}__years {
-            color: $grey-06;
+            color: colors.$grey-06;
             font-size: 12px;
-            border: 1px solid $grey-06 ;
+            border: 1px solid colors.$grey-06 ;
             padding: 2px 4px;
             border-radius: 2px;
             margin-bottom: 10px;
         }
         #{$educations}__title {
-            color: $orange;
+            color: colors.$orange;
             font-size: 18px;
         }
         #{$educations}__company {
-            color: $grey-06;
+            color: colors.$grey-06;
             opacity: .6;
             font-size: 14px;
         }
