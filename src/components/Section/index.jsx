@@ -15,3 +15,4 @@ const Section = ({title,...props}) => {
 }
 
 export default Section
+

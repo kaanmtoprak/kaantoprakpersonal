@@ -15,6 +15,7 @@ Bu proje, React ve modern web teknolojileri kullanılarak geliştirilmiş kişis
 ## 🛠️ Kullanılan Teknolojiler
 
 - **React 18.2** - UI kütüphanesi
+- **Vite** - Build tool ve dev server
 - **SASS/SCSS** - Stil yönetimi
 - **i18next & react-i18next** - Çoklu dil desteği
 
@@ -43,7 +44,7 @@ npm install
 Geliştirme modunda çalıştırmak için:
 
 ```bash
-npm start
+npm run dev
 ```
 
 Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresini açın.
@@ -57,6 +58,12 @@ npm run build
 ```
 
 Build dosyaları `build` klasörüne oluşturulacaktır.
+
+Build'i önizlemek için:
+
+```bash
+npm run preview
+```
 
 ## 🌐 Canlı Demo
 

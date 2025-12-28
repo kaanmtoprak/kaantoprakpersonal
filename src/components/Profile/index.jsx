@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 
 
 const Profile = () => {
-    const { i18n } = useTranslation();
+    const { i18n, t } = useTranslation();
   
   return (
     <div className='profile'>
@@ -23,7 +23,7 @@ const Profile = () => {
             <a href="https://twitter.com/kaanmehtprk" target='_blank' rel="noreferrer"><i className='icon-twitter'></i></a>
         </div>
         <div className="profile__actions">
-            <a href={`cv/mkt-cv-${i18n.language}.pdf`} download>Download CV</a>
+            <a href={`cv/mkt-cv-${i18n.language}.pdf`} download>{t('download')}</a>
         </div>
 
     </div>
