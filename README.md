@@ -1,25 +1,25 @@
-# 🚀 Kişisel Portföy Web Sitesi
+# Kişisel Portföy Web Sitesi
 
 
-## 📋 Hakkında
+## Hakkında
 
 Bu proje, React ve modern web teknolojileri kullanılarak geliştirilmiş kişisel bir web sitesidir. Site, deneyimlerimi, eğitim geçmişimi ve teknik yeteneklerimi içermektedir.
 
-## ✨ Özellikler
+##  Özellikler
 
-- 🌍 **Çoklu Dil Desteği**: Türkçe ve İngilizce dil desteği (i18n)
-- 📱 **Responsive Tasarım**: Tüm cihazlarda mükemmel görünüm
-- 🎨 **Modern UI/UX**: Kullanıcı dostu ve estetik arayüz
-- ⚡ **Performans**: Optimize edilmiş ve hızlı yükleme süreleri
+-  **Çoklu Dil Desteği**: Türkçe ve İngilizce dil desteği (i18n)
+-  **Responsive Tasarım**: Tüm cihazlarda mükemmel görünüm
+-  **Modern UI/UX**: Kullanıcı dostu ve estetik arayüz
+-  **Performans**: Optimize edilmiş ve hızlı yükleme süreleri
 
-## 🛠️ Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 - **React 18.2** - UI kütüphanesi
 - **Vite** - Build tool ve dev server
 - **SASS/SCSS** - Stil yönetimi
 - **i18next & react-i18next** - Çoklu dil desteği
 
-## 📦 Kurulum
+## Kurulum
 
 Projeyi klonlayın:
 
@@ -39,7 +39,7 @@ Bağımlılıkları yükleyin:
 npm install
 ```
 
-## 🚀 Çalıştırma
+## Çalıştırma
 
 Geliştirme modunda çalıştırmak için:
 
@@ -49,27 +49,12 @@ npm run dev
 
 Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresini açın.
 
-## 📦 Production Build
 
-Production build oluşturmak için:
-
-```bash
-npm run build
-```
-
-Build dosyaları `build` klasörüne oluşturulacaktır.
-
-Build'i önizlemek için:
-
-```bash
-npm run preview
-```
-
-## 🌐 Canlı Demo
+##  Canlı Demo
 
 Site canlı olarak şu adreste yayınlanmaktadır: [kaantoprak.net](https://kaantoprak.net)
 
-## 📝 Proje Yapısı
+##  Proje Yapısı
 
 ```
 src/
@@ -84,7 +69,7 @@ src/
 └── utilities/          # Yardımcı fonksiyonlar
 ```
 
-## 🎨 Özelleştirme
+## Özelleştirme
 
 ### Dil Dosyalarını Düzenleme
 
@@ -94,20 +79,14 @@ Dil dosyaları `src/locales/` klasöründe bulunmaktadır:
 
 ### Stil Değişkenleri
 
-Renk ve stil değişkenleri `src/styles/Settings/colors.scss` dosyasında tanımlanmıştır.
+Still değişkenleri `src/styles/Settings` dosyasında tanımlanmıştır.
 
-## 📧 İletişim
+## İletişim
 
 - **GitHub**: [@kaanmtoprak](https://github.com/kaanmtoprak)
 - **LinkedIn**: [Mehmet Kaan Toprak](https://www.linkedin.com/in/kaanmtprk/)
 - **Twitter**: [@kaanmehtprk](https://twitter.com/kaanmehtprk)
 
-## 📄 Lisans
+## Lisans
 
 Bu proje kişisel bir projedir ve özel kullanım içindir.
-
----
-
-⭐ Bu projeyi beğendiyseniz yıldız vermeyi unutmayın!
-
-**Not**: Bu kişisel bir projedir. Herhangi bir ticari amaçla kullanılmamaktadır.

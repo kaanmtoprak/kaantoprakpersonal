@@ -1,42 +1,32 @@
 @use '../../styles/Settings/colors';
 @use '../../styles/Settings/mixins';
+@use '../../styles/Settings/typography';
 
 .educations {
     $educations:&;
-    > div {
-        @include mixins.flex-center;
-        flex-direction: column;
-        margin-top: 20px;
-        + div {
-            position: relative;
 
-            padding-top: 20px;
-            &::after {
-                content: "";
-                position: absolute;
-                left: 0;
-                top: 0;
-                width: 100%;
-                height: 1px;
-                background: radial-gradient(ellipse at center, #c5cad526 0%, #ffffff00 70%);
-            }
-        }
+    > div {
+        @include mixins.flex(center, center, column);
+        margin-top: 20px;
+
         #{$educations}__years {
             color: colors.$grey-06;
-            font-size: 12px;
+            @include typography.text(12px);
             border: 1px solid colors.$grey-06 ;
             padding: 2px 4px;
             border-radius: 2px;
             margin-bottom: 10px;
         }
+
         #{$educations}__title {
             color: colors.$orange;
-            font-size: 18px;
+            @include typography.text(18px);
         }
+
         #{$educations}__company {
             color: colors.$grey-06;
             opacity: .6;
-            font-size: 14px;
+            @include typography.text(16px);
         }
     }
 }

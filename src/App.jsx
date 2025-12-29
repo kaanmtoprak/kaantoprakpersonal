@@ -1,24 +1,19 @@
-import { AboutMe, Educations, Experiences, Section, Skills } from "./components";
+import { Section } from "./components";
 import './components/Home/home.scss';
 import { useTranslation } from 'react-i18next';
+import { sections } from "./components/utilities/sections";
 
 function App() {
   const { t } = useTranslation();
 
+
   return (
     <div className='home'>
-        <Section title={t('sections.aboutMe')}>
-            <AboutMe/>
+      {sections(t).map((section, index) => (
+        <Section key={index} title={section.title}>
+          {section.component}
         </Section>
-        <Section title={t('sections.experiences')}>
-            <Experiences/>
-        </Section>
-        <Section title={t('sections.educations')}>
-            <Educations/>
-        </Section>
-        <Section title={t('sections.skills')}>
-            <Skills/>
-        </Section>
+      ))}
     </div>
   );
 }

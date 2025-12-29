@@ -1,20 +1,31 @@
+@use "sass:map";
+
+$white: #ffffff;
+$black: #000000;
+
+$orange: #f36200;
+
+$grey-01: #202020;
+$grey-02: #31313a;
+$grey-05: #707070;
+$grey-06: #dedede;
 
 
-$white : #FFFFFF;
-$black : #000000;
+$opacities: ();
 
-$red : #ff0000;
-$green: #009c00;
-$orange : #f36200;
+@for $i from 0 through 100 {
+  $opacities: map.merge(
+    $opacities,
+    (
+      $i: $i * 0.01,
+    )
+  );
+}
 
-$grey-01 : #202020;
-$grey-02 : #31313A;
-$grey-03 : #707070;
-$grey-04 : #727272;
-$grey-05 : #707070;
-$grey-06 : #dedede;
-
-$main-01 : #27374D;
-$main-02 : #27374D;
-$main-03 : #CD104D;
-$main-04 : #2e2e2e;
+@function color-opacity($color, $opacity-key) {
+  @if map.has-key($opacities, $opacity-key) {
+    @return rgba($color, map.get($opacities, $opacity-key));
+  } @else {
+    @return $color;
+  }
+}

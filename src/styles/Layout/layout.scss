@@ -8,8 +8,7 @@
     display: grid;
     grid-template-columns: 1fr 1.3fr;
     @include screens.under-desktop {
-        @include mixins.flex-center;
-        flex-direction: column;
+        @include mixins.flex(center, center, column);
         height: 100%;
         margin: 0 20px ;
 
@@ -34,11 +33,13 @@
     }
     .profile {
         margin: auto 0;
-        height: 670px;
+        height: auto;
         width: 100%;
+        min-height: 670px;
         @include screens.under-desktop {
-            height: 550px;
+            height: auto;
             margin: 20px 0;
+            gap: 20px;
         }
     }
 }
