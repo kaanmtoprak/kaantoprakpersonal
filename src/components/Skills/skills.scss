@@ -1,16 +1,15 @@
 @use '../../styles/Settings/colors';
 @use '../../styles/Settings/mixins';
 @use '../../styles/Settings/screens';
-
+@use '../../styles/Settings/typography';
 
 .skills {
     $skills : &;
-    @include mixins.flex-center;
-    flex-direction: column;
+    @include mixins.flex(center, center, column);
     gap: 20px;
 
     @mixin underline-before {
-        background: radial-gradient(ellipse at left, #c5cad526 0%, #ffffff00 80%);
+        background: radial-gradient(ellipse at left, colors.color-opacity(colors.$grey-06, 30) 0%, colors.color-opacity(colors.$white, 0) 80%);
         content: '';
         position: absolute;
         left: 0;
@@ -23,7 +22,7 @@
         width: 100%;
         &__title {
             position: relative;
-            font-size: 20px;
+            @include typography.text(20px);
             color: colors.$orange;
             margin-bottom: 20px;
             display: block;
@@ -33,17 +32,15 @@
         }
         &__content {
             width: 100%;
-            @include mixins.flex-center-start;
-            flex-direction: row;
+            @include mixins.flex(center, flex-start, row, flex, wrap);
             gap: 20px;
-            flex-wrap: wrap;
             &__skill {
                 position: relative;
                 width: calc(50% - 10px);
                 @include screens.phone {
                     width: 100%;
                 }
-                font-size: 16px;
+                @include typography.text(16px);
                 color: colors.$grey-06;
                 margin-bottom: 10px;
                 &::before {
@@ -51,7 +48,7 @@
                 }
             }
             @include screens.phone {
-                flex-direction: column;
+                @include mixins.flex(center, center, column);
             }
         }
     }

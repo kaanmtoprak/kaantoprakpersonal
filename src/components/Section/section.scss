@@ -1,5 +1,6 @@
 @use '../../styles/Settings/colors';
 @use '../../styles/Settings/mixins';
+@use '../../styles/Settings/typography';
 
 .section {
     + .section {
@@ -8,10 +9,10 @@
     &__title {
         position: relative;
         padding: 20px;
-        font-size: 20px;
+        @include typography.text(20px);
         color: colors.$grey-06;
         &::before {
-            background: radial-gradient(ellipse at left, #c5cad526 0%, #ffffff00 80%);
+            background: radial-gradient(ellipse at left, colors.color-opacity(colors.$grey-06, 30) 0%, colors.color-opacity(colors.$white, 0) 80%);
             content: '';
             position: absolute;
             left: 0;

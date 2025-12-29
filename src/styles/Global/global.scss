@@ -15,14 +15,8 @@ body {
   position: relative;
   width: 100%;
   min-height: 100%;
-  font-size: 16px;
+  @include text(16px);
   -webkit-font-smoothing: antialiased;
-  font-variant: normal;
-
-  * {
-    font-variant: normal;
-    font-variant-numeric: normal;
-  }
 }
 ::-webkit-scrollbar-track {
 	-webkit-box-shadow: none;
@@ -35,7 +29,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-	background-color: rgba(0,0,0,0.5);
+	background-color: color-opacity($black, 50);
 	-webkit-border-radius: 6px;
 	border-radius: 6px;
 }
@@ -57,26 +51,8 @@ body {
     -moz-appearance: textfield;
   }
 
-  &.overflow {
-    overflow: hidden;
-  }
-
 }
 
-.container {
-  width: 100%;
-  max-width: 1248px;
-  margin: 0 auto;
-  box-sizing: border-box;
-
-  @include tablet {
-    padding: 0 60px;
-  }
-
-  @include phone {
-    padding: 0 24px;
-  }
-}
 
 #root {
   width: 100%;
@@ -91,13 +67,6 @@ a {
   text-decoration: none;
 }
 
-.grid-right {
-  text-align: right;
-
-  @include phone {
-    text-align: inherit;
-  }
-}
 
 
 
