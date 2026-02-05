@@ -20,7 +20,7 @@
   "experiences": [
     {
       "id": 1,
-      "years": "Mart 2023 - Günümüz",
+      "years": "Mart 2023 - Ocak 2026",
       "title": "Frontend Developer (Ocak 2025'ten itibaren Senior)",
       "company": "P-Tech Solutions",
       "description": "Frontend ekibiyle birlikte, Framer Motion ve Scroll Magic kullanarak etkileşimli bir web sitesi geliştirdik. Büyük ölçekli bir merchant admin paneli projesinin kurulumundan itibaren geliştirilmesinde aktif rol aldım. Wallet, kampanya, kart yönetimi gibi modüllerin arayüz geliştirmelerine katkı sağladım. Webpack Module Federation tabanlı micro-frontend yapısında ortak npm paketleri ve yeniden kullanılabilir component’ler geliştirdim. Azure deployment, Jira ile Agile süreçler ve Figma tasarımlarının uygulanmasında düzenli sorumluluk aldım."
