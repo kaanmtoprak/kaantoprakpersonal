@@ -20,7 +20,7 @@
   "experiences": [
     {
       "id": 1,
-      "years": "Mar 2023 - Present",
+      "years": "Mar 2023 - Jan 2026",
       "title": "Frontend Developer (Senior After Jan 2025)",
       "company": "P-Tech Solutions",
       "description": "Developed an interactive marketing website with the frontend team using Framer Motion and Scroll Magic. Played an active role in the setup and development of a large-scale merchant admin panel. Contributed to frontend development of wallet, campaign and card management modules. Worked in a micro-frontend architecture with Webpack Module Federation, building shared npm packages and reusable components. Took part in Azure deployment processes and Agile workflows managed via Jira, implementing UIs based on Figma designs"
