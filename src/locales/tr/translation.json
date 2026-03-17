@@ -72,18 +72,6 @@
         {
           "id": 4,
           "skill": "Responsive Tasarım"
-        },
-        {
-          "id": 5,
-          "skill": "Cross-Browser Uyumluluğu"
-        },
-        {
-          "id": 6,
-          "skill": "Performans Optimizasyonu"
-        },
-        {
-          "id": 7,
-          "skill": "Pixel-Perfect Tasarım"
         }
       ]
     },
@@ -161,7 +149,7 @@
     },
     {
       "id": 4,
-      "title": "Test & İzleme",
+      "title": "Test ",
       "skills": [
         {
           "id": 1,
@@ -169,11 +157,7 @@
         },
         {
           "id": 2,
-          "skill": "Performans İzleme"
-        },
-        {
-          "id": 3,
-          "skill": "Hata Takibi"
+          "skill": "Vitest"
         }
       ]
     },
